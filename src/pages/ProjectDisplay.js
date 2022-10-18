@@ -11,7 +11,9 @@ const ProjectDisplay = () => {
     <h1>{project.name}</h1>
     <img src={project.image} />
     <p> <b>Skills: </b> {project.skill}</p>
+    <a href="https://github.com/bvcr93">
     <GitHubIcon/>
+    </a>
 
   </div>;
 };
